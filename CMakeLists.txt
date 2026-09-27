@@ -84,7 +84,7 @@ elseif(WIN32)
     # Desktop shader asset copy
     add_custom_target(CopyShaderAssets ALL
         COMMAND ${CMAKE_COMMAND} -E copy_directory
-            "${CMAKE_CURRENT_LIST_DIR}/data/assets/shaders"
+            "${CMAKE_CURRENT_LIST_DIR}/data/assets"
             "$<TARGET_PROPERTY:SPACE,BINARY_DIR>/$<CONFIG>/assets"
         COMMENT "Copying shader assets to build directory"
     )
