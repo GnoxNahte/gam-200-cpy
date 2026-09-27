@@ -1,0 +1,2 @@
+This is just a placeholder file for git to keep track of an empty folder.
+Delete after creating a file in this folder.
