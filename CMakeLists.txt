@@ -63,7 +63,7 @@ if(EMSCRIPTEN)
         SUFFIX ".html"
     )
 
-elseif(WIN32)
+elseif(WIN32 OR UNIX)
     # Windows/Desktop specific settings
     add_definitions(-DPLATFORM_WINDOWS -DGLEW_STATIC)
     target_compile_definitions(SPACE PRIVATE PLATFORM_WINDOWS GLEW_STATIC)

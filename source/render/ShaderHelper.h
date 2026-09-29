@@ -63,9 +63,9 @@ public:
     static std::string loadFile(const char* filename)
     {
         std::array<std::string, 4> possiblePaths = {
-            "assets/shader/",
+            "assets/shaders/",
             "",
-            "shader/",
+            "shaders/",
             "assets/"
         };
         
